@@ -1,0 +1,33 @@
+{
+  "name": "great-british-trex",
+  "version": "0.0.0",
+  "description": "Basic expenses calculator to convert from US to UK incorporating costs",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/lib/",
+    "start": "node monitor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abovethewater/great-british-trex.git"
+  },
+  "keywords": [
+    "Expenses",
+    "node",
+    "openexchangerates"
+  ],
+  "author": "Joe Mathews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abovethewater/great-british-trex/issues"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "homepage": "https://github.com/abovethewater/great-british-trex",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "node-static": "^0.7.4"
+  }
+}
